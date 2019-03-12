@@ -33,18 +33,17 @@
     </div>
 
     <div class="container">
-
-    <form id="form_entrar" class="form-signin">
-        <label for="inputEmail" class="sr-only">E-mail</label>
-        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="E-mail" required="" autofocus="">
-        <label for="inputPassword" class="sr-only">Senha</label>
-        <input type="password" name="senha" id="inputPassword" class="form-control" placeholder="Senha" required="">
-        <button class="btn btn-lg btn btn-dark btn-block" onclick="btn_entrar()" >Entrar</button>
-    </form>
-
+        <form id="form_entrar" class="form-signin">
+            <label for="inputEmail" class="sr-only">E-mail</label>
+            <input type="email" name="email" id="inputEmail" class="form-control" placeholder="E-mail" required="" autofocus="">
+            <label for="inputPassword" class="sr-only">Senha</label>
+            <input type="password" name="senha" id="inputPassword" class="form-control" placeholder="Senha" required="">
+            <button class="btn btn-lg btn btn-dark btn-block" onclick="btn_entrar()" >Entrar</button>
+            <a class="btn btn-lg btn btn-dark btn-block" href="../index.php"> <span class="glyphicon glyphicon-menu-left"></span> Voltar </a>
+        </form>
     </div> <!-- /container -->
 
-
+    <?php include_once("modal_alertas.php");?>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -52,6 +51,7 @@
     <script type="text/javascript" src="../js/jquery.min.js"></script>
 
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="../js/script.js"></script>
   

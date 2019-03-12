@@ -1,7 +1,7 @@
 <?php
 
-	include('../Model/CadastrarModel.php');
-	include('Validacoes/ValidaDadosCadastrar.php');
+	require_once('../Model/CadastrarModel.php');
+	require_once('Validacoes/ValidaDadosCadastrar.php');
 
 	Class CadastrarController extends ValidaDadosCadastrar{
 

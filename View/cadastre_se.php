@@ -24,6 +24,8 @@
     <!-- Custom styles for this template -->
     <link href="../css/signin.css" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+
   </head>
 
   <body style="background: url(../images/003.jpg) repeat right top fixed;
@@ -34,17 +36,16 @@
     </div>
 
     <div class="container">
-
-    <form id="form_cadastre_se" class="form-signin">
-        <label for="inputEmail" class="sr-only">Usuário</label>
-        <input type="text" name="usuario" id="inputUsuario" class="form-control" placeholder="Usuário" required="" autofocus="">
-        <label for="inputEmail" class="sr-only">E-mail</label>
-        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="E-mail" required="" autofocus="">
-        <label for="inputPassword" class="sr-only">Senha</label>
-        <input type="password" name="senha" id="inputPassword" class="form-control" placeholder="Senha" required="">
-        <button class="btn btn-lg btn btn-dark btn-block" onclick="btn_cadastrar()" t>Cadastrar</button>
-    </form>
-
+        <form id="form_cadastre_se" class="form-signin">
+            <label for="inputEmail" class="sr-only">Usuário</label>
+            <input type="text" name="usuario" id="inputUsuario" class="form-control" placeholder="Usuário" required="" autofocus="">
+            <label for="inputEmail" class="sr-only">E-mail</label>
+            <input type="email" name="email" id="inputEmail" class="form-control" placeholder="E-mail" required="" autofocus="">
+            <label for="inputPassword" class="sr-only">Senha</label>
+            <input type="password" name="senha" id="inputPassword" class="form-control" placeholder="Senha" required="">
+            <button class="btn btn-lg btn btn-dark btn-block" onclick="btn_cadastrar()">Cadastrar</button>
+            <a class="btn btn-lg btn btn-dark btn-block" href="../index.php"> <span class="glyphicon glyphicon-menu-left"></span> Voltar </a>
+        </form>
     </div> <!-- /container -->
 
 
@@ -52,6 +53,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
     <script type="text/javascript" src="../js/jquery.min.js"></script>
 
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
