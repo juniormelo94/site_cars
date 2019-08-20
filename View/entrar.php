@@ -1,11 +1,9 @@
 <?php
-
     session_start();
-
 ?>
 
 <!DOCTYPE html>
-<!-- saved from url=(0050)https://v4-alpha.getbootstrap.com/examples/signin/ -->
+
 <html lang="pt-br">
 
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

@@ -1,11 +1,9 @@
-
 <?php
-
 	require_once "../configuracoes.php";
 
 	class EntrarSelectModel{
-		public function select($conexao, $email, $senha){
-
+		public function select($conexao, $email, $senha)
+		{
 			$senha = md5($senha);
 
 			$sql = "SELECT cadastroUsuario FROM cadastro WHERE cadastroEmail = '$email' AND cadastroSenha = '$senha'";
@@ -14,7 +12,6 @@
 			$dados = mysqli_fetch_array($retorno_db);
 
 			if(!empty($dados['cadastroUsuario'])){
-
 				return [
 					"status" => "success",
 					"msg" => "Usuário encontrado!",
@@ -31,5 +28,4 @@
 			];
 		}
 	}
-
 ?>

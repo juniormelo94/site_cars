@@ -1,4 +1,3 @@
-
 <?php
 	
 	Class InserirUsuarioModel {
@@ -15,5 +14,4 @@
 			}				
 		}		
 	}
-
 ?>

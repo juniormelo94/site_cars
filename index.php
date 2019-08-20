@@ -1,12 +1,9 @@
 <?php
-  
   require_once "configuracoes.php";
   require_once "View/cabecalho.php";
-
 ?>
 
   <body >
-
     <header>
       <div class="bg-dark collapse" id="navbarHeader" style="">
         <div class="container">
@@ -24,7 +21,6 @@
         </div>
       </div>
 
-
       <div class="div_barra navbar navbar-dark bg-dark box-shadow">
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
@@ -41,35 +37,8 @@
     <?php
       require_once "View/banner.php";
     ?>
-<!--     <div id="myCarousel" class="carousel slide w-100 h-75 d-inline-block" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-      </ol>
-      <div class="carousel-inner p-5" role="listbox">
-        <div class="carousel-item active">
-          <img class="img-fluid img-thumbnail rounded mx-auto d-block first-slide" src="public/images/carros.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="img-fluid img-thumbnail rounded mx-auto d-block first-slide" src="public/images/dirigindo.jpeg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="img-fluid img-thumbnail rounded mx-auto d-block first-slide" src="public/images/familia-viagem-feliz.jpg" alt="First slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div> -->
 
     <main role="main">
-
       <section class="jumbotron ">
         <div class="container">
           <h1 class="jumbotron-heading text-center">O que vou encontrar?</h1>
@@ -93,17 +62,14 @@
           <h4 class="text-center jumbotron-heading">Cadastre-se e acesse agora mesmo!</h4>
         </div>
       </section>
-
     </main>
 
     <!-- icludes de modals -->
     <?php
-
       include_once('View/modal_entrar.php');
       include_once('View/modal_cadastrar.php');
       include_once('View/modal_cadastrarDadosCars.php');
       include_once("View/modal_alertas.php");
-
     ?>
 
     <footer class="text-muted">
@@ -113,7 +79,5 @@
     </footer>
 
 <?php
-
   require_once "View/rodape.php";
-
 ?>

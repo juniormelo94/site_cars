@@ -4,8 +4,8 @@
 
 	class BuscarCarrosModel extends ConexaoDataBase{
 
-		public function buscarCarrosModel(){
-
+		public function buscarCarrosModel()
+		{
 			$conexao = $this->conectar_dataBase();
 
 			$sql = "SELECT * FROM dadosCarros AS dc
@@ -26,5 +26,4 @@
 			return "Error ao tentar trazer informações";
 		}
 	}
-
 ?>

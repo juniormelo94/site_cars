@@ -1,5 +1,4 @@
 <?php
-
 	class ValidarDadosCadastrarCars{
 
 		public function validar($dados)
@@ -18,7 +17,5 @@
 
 			return ["status" => "ok"];
 		}
-
 	}
-
 ?>

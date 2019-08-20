@@ -1,129 +1,83 @@
-
 body{
 	background: url(../images/003.jpg) repeat right top fixed;
 	background-size: contain;
 }
-
-/*.album{
-	background: url(../images/003.jpg) repeat right top fixed;
-	background-size: contain;
-}*/
-
-/*BARRA DE NAVEGAÇÃO*/
-
-/*.box-shadow {
-	background: #000080!important;
-}*/
-
-/*MURAL*/
-
 .carousel {
 	margin-top: 4rem;
     background: black;
     height: 30rem;
 }
-
-/*BOTÃO MENU*/
-
 .navbar-toggler{
 	background-color: rgba(0, 0, 0,0.3);
 }
-
 .div_img_logo{
 	width: 4.5rem;
 	height: 4.5rem;
 }
-
 .navbar-brand{
 	color: #D3D3D3!important;
 	font-size: 2.5rem;
 }
-
 .div_barra {
 	border-top: #D3D3D3 solid 1px;
     background: rgb(25, 25, 34) !important;
 }
-
 .collapse.show {
     background: rgb(25, 25, 34) !important;
 }
-
 footer{
 	background: rgb(25, 25, 34) !important;
 }
-
 footer p{
 	text-align: center;
 	color: #D3D3D3;
 }
-
 .text-white {
     color: #D3D3D3;
 }
-
 .text-muted {
-    /*color: rgb(25, 25, 34) !important;*/
     color: #D3D3D3!important;
     margin-top: 4rem;
 }
-
 .jumbotron {
     margin-top: 4rem;
     background: #4F4F4F;
-
 }
-
 .jumbotron-heading {
-    /*color: rgb(54 54 54);*/
        color: #E8E8E8;
        font-weight: 700;
 }
-
 .btn_padding{
 	padding: .375rem 2.2rem;
 }
-
 .btn-primary{
 	background: none;
 }
-
 .btn_border_blue {
 	border: 3px solid #007bff;
 }
-
 .navbar-dark .navbar-toggler {
 	border-color: #007bff;
 }
-
 a.text_decoration:link 
 { 
 text-decoration:none; 
 }
-
 .img_usuario{
 	width: 2.5rem;
 	height: 2.5rem;
 	background: #D3D3D3;
     border-radius: 28px;
 }
-
 .nome_usuario{
 	font-size: 1.4em;
 }
-
-/*.fundo_azul{
-	background: url(../images/003.jpg) repeat right top fixed;
-	background-size: contain;
-}*/
-
 .bg-light {
     background-color: transparent!important;
 }
-
 .modal_title_cinza{
 	color: rgb(105, 105, 105) !important;
 }
-
 .label_file {
   background-color: #3498db;
   border-radius: 5px;
@@ -132,15 +86,12 @@ text-decoration:none;
   margin: 10px;
   padding: 6px 20px
 }
-
 .input_file[type='file'] {
   display: none
 }
-
 .header_white{
 	background: white;
 }
-
 .title_white{
 	color: white;
 }

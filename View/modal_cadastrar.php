@@ -1,8 +1,3 @@
-<!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalAlerta">
-  Launch demo modal
-</button> -->
-
 <!-- Modal -->
 <div class="modal fade pr-0" id="modal_cadastrar" tabindex="-1" role="dialog" aria-labelledby="modalAlertaLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">

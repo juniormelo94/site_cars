@@ -15,15 +15,12 @@ function btn_cadastrar(){
         	$("#modalAlerta").modal("show");
         	$("#btn_cad_form").attr("disabled", false);
         },
-
         error: function(erro){
     	console.log("erro");
     	console.log(erro);
-    	// alert(data)
     	}
 	});
 }
-
 
 function btn_entrar(){
     $("#ent_form").attr("disabled", "disabled");
@@ -46,11 +43,9 @@ function btn_entrar(){
         	$("#ent_form").attr("disabled", false);
 
         },
-
         error: function(erro){
         	console.log("erro");
         	console.log(erro);
-        	// alert(data)
         }
     });
 }
@@ -64,14 +59,12 @@ function btn_sair(){
         {
             window.location.href = resposta.data.sair;
         },
-
         error: function(erro)
         {
             console.log("erro");
             console.log(erro);
         }
     });
-
 }
 
 function buscar_carros(filtro)
@@ -87,14 +80,12 @@ function buscar_carros(filtro)
             $("#row-carros").html("");
             $("#row-carros").html(preenche_dados_carro(resposta));
         },
-
         error: function(erro)
         {
             console.log("erro");
             console.log(erro);
         }
     });
-
 }
 
 function preenche_dados_carro(dados)
@@ -143,15 +134,13 @@ function preenche_dados_carro(dados)
 
  function pegarImagem()
  {
-  if (event.target.files != null && event.target.files.length > 0)
-  {
-   file = event.target.files[0];
-  }
+    if (event.target.files != null && event.target.files.length > 0){
+      file = event.target.files[0];
+    }
  }
 
  function btn_cadastrar_cars()
  {
-
     var formDataCadCar = new FormData();
     formDataCadCar.append("imagem", file);
     formDataCadCar.append("nome", $("#nome").val());

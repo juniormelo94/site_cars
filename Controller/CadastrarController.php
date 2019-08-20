@@ -1,5 +1,4 @@
 <?php
-
 	require_once('../Model/CadastrarModel.php');
 	require_once('Validacoes/ValidaDadosCadastrar.php');
 
@@ -9,23 +8,15 @@
 		{
 			$validar = $this->validar($dados);
 
-			// echo "<pre>";
-			// var_dump($validar);
-			// die();
-
-			if ($validar['status'] == 'error') {
+			if ($validar['status'] == 'error'){
 				return json_encode($validar);
 			}
 
 			$cadastrarModel = new CadastrarModel();
 			return $cadastrarModel->cadastrar($dados);
-
 		}
 	}
 
 	$cadastrar = new CadastrarController();
 	echo json_encode($cadastrar->cadastrar($_POST));
-
-	// echo (new Cadastrar())->cadastrar($_POST); outra opção de uso
-
 ?>

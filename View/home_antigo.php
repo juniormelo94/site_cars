@@ -1,6 +1,4 @@
-
 <?php
-
   session_start();
   require_once "../configuracoes.php";
   require_once "../Model/VerificaSessao.php";
@@ -12,7 +10,6 @@
 
   $buscarCarros = new BuscarCarrosController();
   $buscarCarros = $buscarCarros->buscarCarrosController();  
-
 ?>
 
   <body>
@@ -36,7 +33,6 @@
           </ul>    
         </div>
       </div>
-
 
       <div class="div_barra navbar navbar-dark bg-dark box-shadow">
         <div class="container d-flex justify-content-between">

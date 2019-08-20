@@ -1,10 +1,10 @@
-
 <?php
     require_once "../configuracoes.php";
 
 	class Sair{
 
-		public function sair(){
+		public function sair()
+		{
 			session_start();
 			session_destroy();
 			return [
@@ -18,5 +18,4 @@
 
 	$sair = new Sair();
 	echo json_encode($sair->sair());
-
 ?>

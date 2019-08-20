@@ -1,6 +1,4 @@
-
 <?php
-
 	require_once('Validacoes/ValidarDadosCadastrarCars.php');
 	require_once('../Model/CadastrarCarsModel.php');
 
@@ -17,10 +15,8 @@
 			$cadastrarCarsModel = new CadastrarCarsModel();
 			return $cadastrarCarsModel->cadastrar($dados);
 		}
-
 	}
 
 	$cadastrarCars = new CadastrarCarsController();
  	echo json_encode($cadastrarCars->cadastrar($_POST));
-
 ?>

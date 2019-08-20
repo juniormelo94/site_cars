@@ -1,11 +1,8 @@
 <?php
-
     session_start();
-
 ?>
 
 <!DOCTYPE html>
-<!-- saved from url=(0050)https://v4-alpha.getbootstrap.com/examples/signin/ -->
 <html lang="pt-br">
 
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -47,7 +44,6 @@
             <a class="btn btn-lg btn btn-dark btn-block" href="../index.php"> <span class="glyphicon glyphicon-menu-left"></span> Voltar </a>
         </form>
     </div> <!-- /container -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

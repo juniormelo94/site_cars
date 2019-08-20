@@ -1,6 +1,4 @@
-
 <?php
-
   session_start();
   require_once "../configuracoes.php";
   require_once "../Model/VerificaSessao.php";
@@ -12,11 +10,9 @@
 
   $buscarCarros = new BuscarCarrosController();
   $buscarCarros = $buscarCarros->buscarCarrosController();  
-
 ?>
 
   <body>
-
     <header>
       <div class="bg-dark collapse" id="navbarHeader" style="">
         <div class="container">
@@ -25,7 +21,7 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-toggle="modal" data-target="#modal_cadastrar"">Perfil</a>
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#modal_cadastrar">Perfil</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" data-toggle="modal" data-target="#modal_entrar">Entrar</a>
@@ -36,7 +32,6 @@
           </ul>    
         </div>
       </div>
-
 
       <div class="div_barra navbar navbar-dark bg-dark box-shadow">
         <div class="container d-flex justify-content-between">
@@ -76,9 +71,6 @@
 
           <div class="row" id="row-carros">
           <!-- aki é preenchido pelo javascript -->
-          
-
-           
           </div>
         </div>
       </div>
@@ -92,9 +84,7 @@
     </footer>
 
 <?php
-
   require_once "rodape.php";
-
 ?>
 
 <script type="text/javascript">

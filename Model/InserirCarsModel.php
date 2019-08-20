@@ -1,14 +1,11 @@
-
 <?php
-
 	require_once('InserirImagemCarsModel.php');
 
 	class InserirCarsModel extends InserirImagemCarsModel{
 
-		public function inserir($conexao, $dados, $caminhoImagem){
-
+		public function inserir($conexao, $dados, $caminhoImagem)
+		{
 			try {
-
 				$nome = $dados['nome'];
 				$marca = $dados['marca'];
 				$resumo = $dados['resumo'];
@@ -17,9 +14,7 @@
 
 				$sql = "INSERT INTO dadosCarros (dadosNome, dadosMarca, dadosResumo, dadosCategoria, dadosValor) VALUES('$nome', '$marca', '$resumo', '$categoria', '$valor')";
 
-
 				if(mysqli_query($conexao, $sql)){
-
 					$id = mysqli_insert_id($conexao);
 
 					$inserirImg = $this->inserirImg($conexao, $caminhoImagem, $id);
@@ -42,7 +37,5 @@
 				];
 			}
 		}
-
 	}
-
 ?>

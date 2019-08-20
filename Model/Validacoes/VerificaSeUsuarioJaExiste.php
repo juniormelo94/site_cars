@@ -1,11 +1,9 @@
-
 <?php
 	
 	Class VerificaSeUsuarioJaExiste {
 
 		public function verifica($conexao, $usuario, $email)
 		{
-
 			$sql = "SELECT * FROM cadastro WHERE cadastroUsuario = '$usuario' OR cadastroEmail = '$email'";
 
 			$retorno_db = mysqli_query($conexao, $sql);
@@ -21,8 +19,6 @@
 			}
 
 			return ['status' => 'ok'];
-
 		}
 	}
-
 ?>

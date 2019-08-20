@@ -1,5 +1,4 @@
 <?php
-
 	Class ValidaDadosCadastrar{
 
 		public function validar($dados)
@@ -14,7 +13,5 @@
 
 			return ["status" => "ok"];
 		}
-
 	}
-
 ?>

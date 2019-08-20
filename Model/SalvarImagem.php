@@ -1,11 +1,10 @@
-
 <?php
-
 	require_once('../configuracoes.php');
 
 	Class SalvarImagem{
 
-		public function salvarImagem(){
+		public function salvarImagem()
+		{
 			$salvarImagem = PASTA_PUBLIC.'images/';
 			$caminhoImagem = URL_PUBLIC.'images/'. basename($_FILES['imagem']['name']);
 
@@ -15,7 +14,5 @@
 
 			return $caminhoImagem;
 		}
-
 	}
-
 ?>
