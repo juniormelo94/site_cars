@@ -1,5 +1,4 @@
 <?php
-
 	require_once('ConexaoDataBase.php');
 	require_once('InserirUsuarioModel.php');
 	require_once('Validacoes/VerificaSeUsuarioJaExiste.php');

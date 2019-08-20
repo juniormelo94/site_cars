@@ -1,5 +1,4 @@
 <?php
-
 	require_once('ConexaoDataBase.php');
 
 	class BuscarCarrosModel extends ConexaoDataBase{

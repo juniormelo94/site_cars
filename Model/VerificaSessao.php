@@ -1,5 +1,4 @@
 <?php
-
 	require_once "../configuracoes.php";
 
 	class VerificaSessao{
