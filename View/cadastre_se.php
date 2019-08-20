@@ -13,14 +13,12 @@
     <link rel="icon" href="../images/7326_256x256.png">
 
     <title>Site CARS</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/signin/">
 
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/signin/">
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="../css/signin.css" rel="stylesheet">
-
     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
 
   </head>
@@ -51,10 +49,8 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
     <script type="text/javascript" src="../js/jquery.min.js"></script>
-
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
-
     <script type="text/javascript" src="../js/script.js"></script>
-  
 
-</body></html>
+   </body>
+</html>

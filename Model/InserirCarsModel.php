@@ -1,4 +1,5 @@
 <?php
+
 	require_once('InserirImagemCarsModel.php');
 
 	class InserirCarsModel extends InserirImagemCarsModel{

@@ -13,7 +13,6 @@
 ?>
 
   <body>
-
     <header>
       <div class="bg-dark collapse" id="navbarHeader" style="">
         <div class="container">
@@ -122,8 +121,7 @@
           <div class="row">
 
           <?php foreach ($buscarCarros as $key => $carroDados) {
-            // echo "<pre>";
-            // print_r($carroDados);
+
          ;?>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
@@ -157,7 +155,6 @@
 
           <?php };?>
 
-           
           </div>
         </div>
       </div>
@@ -171,7 +168,5 @@
     </footer>
 
 <?php
-
   require_once "rodape.php";
-
 ?>

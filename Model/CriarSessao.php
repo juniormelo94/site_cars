@@ -1,4 +1,5 @@
 <?php
+
 	class CriarSessao{
 
 		public function criar($email, $usuario)

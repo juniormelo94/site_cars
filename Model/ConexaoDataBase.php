@@ -1,4 +1,5 @@
 <?php
+
 	class ConexaoDataBase{
 
 		private $host = 'localhost';

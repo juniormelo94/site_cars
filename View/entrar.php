@@ -3,11 +3,10 @@
 ?>
 
 <!DOCTYPE html>
-
 <html lang="pt-br">
 
-    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -47,11 +46,9 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script type="text/javascript" src="../js/jquery.min.js"></script>
-
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-
     <script type="text/javascript" src="../js/script.js"></script>
   
-
-</body></html>
+  </body>
+</html>
